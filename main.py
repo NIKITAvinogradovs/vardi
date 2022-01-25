@@ -1,10 +1,4 @@
 text = input ("Ievadi tekstu :")
-def countWords(text):
-  summa = 0
-  sar1 = text.split()
-  for word in sar1:
-    if len(word)>1:
-      summa+= 1
-    print (summa)
-  return summa
-countWords(text)
+text = len(text.split())
+
+print(text)
